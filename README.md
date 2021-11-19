@@ -1,5 +1,6 @@
-# kaniko - Build Images In Kubernetes
+# kaniko - Build Images In Kubernetes (arm)
 
+`NOTE: this repo was modified to build on arm (32 bit)`
 `NOTE: kaniko is not an officially supported Google product`
 
 [![Build Status](https://travis-ci.com/GoogleContainerTools/kaniko.svg?branch=master)](https://travis-ci.com/GoogleContainerTools/kaniko) [![Go Report Card](https://goreportcard.com/badge/github.com/GoogleContainerTools/kaniko)](https://goreportcard.com/report/github.com/GoogleContainerTools/kaniko)
