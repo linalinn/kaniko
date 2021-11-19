@@ -16,7 +16,7 @@
 
 # Stage 0: Build the executor binary and get credential helpers
 FROM golang:1.14
-ARG GOARCH=amd64
+ARG GOARCH=arm
 WORKDIR /go/src/github.com/GoogleContainerTools/kaniko
 RUN echo $GOARCH > /goarch
 

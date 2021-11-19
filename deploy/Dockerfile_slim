@@ -14,7 +14,7 @@
 
 # Builds the static Go image to execute in a Kubernetes job
 FROM golang:1.15 as build_env
-ARG GOARCH=amd64
+ARG GOARCH=arm
 RUN echo $GOARCH > /goarch
 
 #This arg is passed by docker buildx & contains the platform info in the form linux/amd64, linux/ppc64le etc.
